@@ -1,0 +1,42 @@
+[14:36:58] [INF] ============================================================
+[14:36:58] [INF]  Placement Predictor — Advanced C++ Neural Network Trainer
+[14:36:58] [INF] ============================================================
+[14:36:58] [INF] Config → csv: placement_data.csv | epochs: 20 | lr: 0.010000 | threads: auto | distributed: no
+[14:36:58] [INF] Loading CSV: placement_data.csv (39839 bytes)
+[14:36:58] [INF] Loaded 2000 samples, 0 rows skipped
+[14:36:58] [INF] Split: 1600 train / 400 test
+[14:36:58] [INF] Scaler saved to scaler.bin
+[14:36:58] [INF] === Model Summary ===
+[14:36:58] [INF]   DenseLayer(5 -> 16)   params: 96
+[14:36:58] [INF]   ReLULayer   params: 0
+[14:36:58] [INF]   DenseLayer(16 -> 10)   params: 170
+[14:36:58] [INF]   SoftmaxLayer   params: 0
+[14:36:58] [INF]   Total trainable parameters: 266
+[14:36:58] [INF] =====================
+[14:36:58] [INF] Trainer ready — threads: 20 | lr: 0.010000 | epochs: 20
+[14:36:58] [INF] Epoch 1/20 | Loss: 2.36789 | Train: 13.00% | Test: 13.50%
+[14:36:58] [INF] Model saved to: model.bin
+[14:36:58] [INF] Training complete — model saved to: model.bin
+[14:36:58] [INF] Training wall-clock time: 49 ms
+[14:36:58] [INF] Final Train Accuracy : 40.06%
+[14:36:58] [INF] Final Test  Accuracy : 38.25%
+[14:36:58] [INF] Model saved to: model.bin
+[14:36:58] [INF] Done! Run predict.exe to use the model.
+[14:37:02] [INF] ============================================================
+[14:37:02] [INF]  Placement Predictor — Advanced C++ Neural Network Trainer
+[14:37:02] [INF] ============================================================
+[14:37:02] [INF] Config → csv: placement_data.csv | epochs: 20 | lr: 0.010000 | threads: auto | distributed: YES
+[14:37:02] [INF] Loading CSV: placement_data.csv (39839 bytes)
+[14:37:02] [INF] Loaded 2000 samples, 0 rows skipped
+[14:37:02] [INF] Split: 1600 train / 400 test
+[14:37:02] [INF] Scaler saved to scaler.bin
+[14:37:02] [INF] === Model Summary ===
+[14:37:02] [INF]   DenseLayer(5 -> 16)   params: 96
+[14:37:02] [INF]   ReLULayer   params: 0
+[14:37:02] [INF]   DenseLayer(16 -> 10)   params: 170
+[14:37:02] [INF]   SoftmaxLayer   params: 0
+[14:37:02] [INF]   Total trainable parameters: 266
+[14:37:02] [INF] =====================
+[14:37:02] [INF] === Distributed Training Mode ===
+[14:37:02] [INF] Workers: 4 | Epochs: 20 | Simulates 4 remote nodes
+[14:37:02] [INF] Data partitioned: 1600 samples across 4 workers (~400 each)
